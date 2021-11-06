@@ -1,0 +1,41 @@
+body {
+	background: #35363a;
+	color: whitesmoke;
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	margin: 7em;
+	margin-top: 6em;
+}
+
+h2 {
+	color: cyan
+}
+
+li {
+	list-style-type: none;
+	padding: 0;
+	margin: .5em;
+}
+
+img {
+	float: left;
+	margin-left: 10%;
+	max-width: 30%;
+    height: auto;
+	border-radius: 2%;
+}
+
+a {
+	text-decoration: none;
+	color: hotpink
+}
+
+.bookmark-container {
+    padding: 2em;
+}
+
+.bookmarks {
+	width: 20%;
+    display: inline-block;
+    padding: 2em;
+}
