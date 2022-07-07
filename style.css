@@ -21,21 +21,27 @@ img {
 	float: left;
 	margin-left: 10%;
 	max-width: 30%;
-    height: auto;
+	height: auto;
 	border-radius: 2%;
 }
 
 a {
 	text-decoration: none;
-	color: hotpink
+	color: hotpink;
+	transition: 250ms ease-in;
+}
+
+a:hover {
+	box-shadow: 0 -2em 0 0 white inset;
+	color: #35363a;
 }
 
 .bookmark-container {
-    padding: 2em;
+	padding: 2em;
 }
 
 .bookmarks {
 	width: 20%;
-    display: inline-block;
-    padding: 2em;
+	display: inline-block;
+	padding: 2em;
 }
