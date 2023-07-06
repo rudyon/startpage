@@ -1,47 +1,32 @@
 body {
-	background: #35363a;
-	color: whitesmoke;
-	font-family: 'Comfortaa', cursive;
+	background: #000;
+	color: #fff;
+	font-family: monospace;
+	font-size: 150%;
 	text-align: center;
-	margin: 7em;
-	margin-top: 6em;
-}
-
-h2 {
-	color: cyan;
+	overflow: hidden;
 }
 
 li {
 	list-style-type: none;
-	padding: 0;
-	margin: .5em;
+	padding: 12px;
 }
 
 img {
-	float: left;
-	margin-left: 10%;
-	max-width: 30%;
-	height: auto;
-	border-radius: 2%;
+	margin: 32px;
 }
 
 a {
 	text-decoration: none;
-	color: hotpink;
-	transition: 250ms ease-in;
+	color: #fff;
 }
 
 a:hover {
-	box-shadow: 0 -2em 0 0 white inset;
-	color: #35363a;
-}
-
-.bookmark-container {
-	padding: 2em;
+	background-color: #fff;
+	color: #000;
 }
 
 .bookmarks {
-	width: 20%;
+	width: 25%;
 	display: inline-block;
-	padding: 2em;
 }
