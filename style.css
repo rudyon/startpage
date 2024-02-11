@@ -30,3 +30,19 @@ a:hover {
 	width: 25%;
 	display: inline-block;
 }
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+h1 {
+	font-family: serif;
+	font-style: italic;
+	font-weight: 100;
+	animation: fadeIn 1s ease-out;
+}
