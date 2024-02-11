@@ -30,3 +30,11 @@ a:hover {
 	width: 25%;
 	display: inline-block;
 }
+
+h1 {
+	font-family: serif;
+	font-style: italic;
+	font-size: 32px;
+	padding-top: 25%;
+	padding-bottom: 30%;
+}
