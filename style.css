@@ -43,5 +43,6 @@ a:hover {
 h1 {
 	font-family: serif;
 	font-weight: 100;
+	font-style: normal;
 	animation: fadeIn 1s ease-out;
 }
